@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-a-thon 2025 - Build. Code. Innovate.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Code-a-thon 2025</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#format" class="nav-link">Format</a>
+                <a href="#prizes" class="nav-link">Prizes</a>
+                <a href="#register" class="nav-link">Register</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">BUILD. CODE. INNOVATE.<sup>®</sup></h1>
+                <p class="hero-subtitle">Join the ultimate coding challenge where teams leverage AI to build innovative solutions</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>6</h3>
+                        <p>Hours</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3</h3>
+                        <p>Teams</p>
+                    </div>
+                    <div class="stat">
+                        <h3>AI</h3>
+                        <p>Powered</p>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToRegister()">Register Now</button>
+                    <button class="btn btn-secondary" onclick="scrollToAbout()">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="code-animation">
+                <div class="code-line"></div>
+                <div class="code-line"></div>
+                <div class="code-line"></div>
+                <div class="code-line"></div>
+                <div class="code-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">THE MOST INNOVATIVE CODING EVENT OF THE YEAR</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Our Code-a-thon brings together the brightest minds to tackle real-world problems using cutting-edge AI technology. Teams will select challenging problems or innovative app ideas and leverage artificial intelligence to build groundbreaking solutions.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Team-Based</h4>
+                            <p>Form teams of 2-5 developers and collaborate to build amazing solutions</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-robot"></i>
+                            <h4>AI-Powered</h4>
+                            <p>Mandatory use of AI tools and technologies in your solution</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-trophy"></i>
+                            <h4>Competitive</h4>
+                            <p>Compete for prizes, recognition, and networking opportunities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                        <p>Innovation in Action</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Format Section -->
+    <section id="format" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">EVENT FORMAT</h2>
+            <div class="format-grid">
+                <div class="format-card">
+                    <div class="format-number">1</div>
+                    <h3>Team Formation</h3>
+                    <p>Register individually or as a team. We'll help match solo participants with compatible teammates.</p>
+                </div>
+                <div class="format-card">
+                    <div class="format-number">2</div>
+                    <h3>Problem Selection</h3>
+                    <p>Choose from our curated list of challenges or propose your own innovative app idea.</p>
+                </div>
+                <div class="format-card">
+                    <div class="format-number">3</div>
+                    <h3>AI Integration</h3>
+                    <p>Mandatory integration of AI tools, APIs, or machine learning models in your solution.</p>
+                </div>
+                <div class="format-card">
+                    <div class="format-number">4</div>
+                    <h3>Development</h3>
+                    <p>6 hours of intensive coding, designing, and building your solution.</p>
+                </div>
+                <div class="format-card">
+                    <div class="format-number">5</div>
+                    <h3>Presentation</h3>
+                    <p>Demo your solution to a panel of expert judges and the audience.</p>
+                </div>
+                <div class="format-card">
+                    <div class="format-number">6</div>
+                    <h3>Awards</h3>
+                    <p>Recognition and prizes for the most innovative, technical, and impactful solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prizes Section -->
+    <section id="prizes" class="section">
+        <div class="container">
+            <h2 class="section-title">PRIZES & RECOGNITION</h2>
+            <div class="prizes-grid">
+                <div class="prize-card prize-gold">
+                    <div class="prize-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>1st Place</h3>
+                    <div class="prize-amount">$5</div>
+                    <ul class="prize-benefits">
+                        <li>Cash prize per team</li>
+                        <li>Mentorship opportunities</li>
+                        <li>Industry recognition</li>
+                        <li>Networking events</li>
+                    </ul>
+                </div>
+                <div class="prize-card prize-silver">
+                    <div class="prize-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>2nd Place</h3>
+                    <div class="prize-amount">$3</div>
+                    <ul class="prize-benefits">
+                        <li>Cash prize per team</li>
+                        <li>Tech equipment</li>
+                        <li>Conference tickets</li>
+                        <li>Career guidance</li>
+                    </ul>
+                </div>
+                <div class="prize-card prize-bronze">
+                    <div class="prize-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>3rd Place</h3>
+                    <div class="prize-amount">$1.50</div>
+                    <ul class="prize-benefits">
+                        <li>Cash prize per team</li>
+                        <li>Software licenses</li>
+                        <li>Online courses</li>
+                        <li>Community access</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="special-awards">
+                <h3>Special Awards</h3>
+                <div class="special-grid">
+                    <div class="special-award">
+                        <i class="fas fa-brain"></i>
+                        <h4>Most Innovative AI Use</h4>
+                    </div>
+                    <div class="special-award">
+                        <i class="fas fa-heart"></i>
+                        <h4>Best Social Impact</h4>
+                    </div>
+                    <div class="special-award">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Best User Experience</h4>
+                    </div>
+                    <div class="special-award">
+                        <i class="fas fa-code-branch"></i>
+                        <h4>Best Technical Implementation</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">JOIN THE CODE-A-THON</h2>
+            <div class="register-content">
+                <div class="register-info">
+                    <h3>Event Details</h3>
+                    <div class="event-details">
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <div>
+                                <h4>Date</h4>
+                                <p>October 20, 2025</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Duration</h4>
+                                <p>6 Hours</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tech Innovation Center<br>Downtown Campus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="register-form">
+                    <form id="registration-form">
+                        <h3>Register Now</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="experience" name="experience" required>
+                                <option value="">Select Experience Level</option>
+                                <option value="beginner">Beginner (0-1 years)</option>
+                                <option value="intermediate">Intermediate (2-5 years)</option>
+                                <option value="advanced">Advanced (5+ years)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="team-preference" name="team-preference">
+                                <option value="">Team Preference</option>
+                                <option value="solo">Looking for teammates</option>
+                                <option value="team">Already have a team</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your coding interests and any team preferences (optional)" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Register for Code-a-thon</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">LET'S TALK.</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>From innovative solutions to career opportunities, our Code-a-thon is built on purpose. Join us in building the future through code and AI.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@codeathon2025.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-CODE</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Innovation Drive<br>Tech City, TC 12345</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Code-a-thon 2025</h3>
+                    <p>Build. Code. Innovate.™</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#format">Format</a>
+                    <a href="#prizes">Prizes</a>
+                    <a href="#register">Register</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Code-a-thon. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
